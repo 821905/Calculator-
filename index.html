@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+<body class="bg-slate-500 h-screen flex flex-col justify-center items-center">
+
+    <div class="h-99 sm:h-111 sm:p-9 border border-white p-4 items-center justify-center flex flex-col bg-transparent rounded-lg  ">
+     <input class="text-white outline-none text-3xl p-1 transparent-none" type="text " placeholder="0" id="inputBox">
+    <div class="flex gap-5 py-2  text-lg hover:cursor-pointer ">
+        <button class="shadow-lg shadow-black px-3 py-2 rounded-full text-green-400 hover:cursor-pointer">AC</button>
+        <button class="shadow-lg shadow-black px-3 py-2 rounded-full text-green-400 hover:cursor-pointer">DEL</button>
+        <button class="shadow-lg shadow-black px-3 py-2 rounded-full text-green-400 hover:cursor-pointer">/</button>
+        <button class="shadow-lg shadow-black px-3 py-2 rounded-full text-green-400 hover:cursor-pointer">%</button>
+     </div>
+
+     <div class= "flex gap-2 py-2  hover:cursor-pointer text-xl ">
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">7</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">8</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">9</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-green-400 hover:cursor-pointer">*</button>
+     </div>
+
+     <div class=" flex gap-2 py-2 hover:cursor-pointer text-xl">
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">4</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">5</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">6</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-green-400 hover:cursor-pointer">-</button>
+     </div>
+
+     <div class=" flex gap-2 py-2 hover:cursor-pointer text-xl">
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">1</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">2</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">3</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-green-400 hover:cursor-pointer">+</button>
+     </div>
+
+     <div class=" flex gap-2 py-2 hover:cursor-pointer text-xl">
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">00</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">0</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-white hover:cursor-pointer">.</button>
+        <button class="shadow-lg shadow-black px-5 py-2 rounded-full text-orange-500 hover:cursor-pointer">=</button>
+     </div>
+     
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
